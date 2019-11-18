@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+}
+
+.header, .footer {
+  background-color: grey;
+  color: white;
+  padding: 15px;
+}
+
+.column {
+  float: left;
+  padding: 5px;
+}
+
+.column R{
+  float: Right;
+  padding: 5px;
+}
+
+.column L{
+  float: Left;
+  padding: 5px;
+}
+
+.column C{
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.menu {
+  width: 15%;
+}
+
+.content {
+  width: 74%;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 6px;
+  margin-bottom: 8px;
+  background-color: #33b5e5;
+  color: #ffffff;
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+.vertical-menu {
+  width: 200px;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #8080ff;
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width:100%;
+  max-height: 100%;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+   float: left;
+  width: 20%;
+  padding: 50px;
+  float:left;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.iframe{
+ width:140px;
+ height:120px;
+ float:left;
+	
+}
+.card button:hover {
+  opacity: 0.7;
+}
+
+.box20 {
+  float: left;
+  width: 20%;
+  padding: 50px;
+}
+.box80 {
+  float: left;
+  width: 750%;
+  padding: 50px;
+}
+
+.flip-card {
+  background-color: red;
+  width: 160px;
+  height: 200px;
+  perspective: 1000px;
+  float: left;
+  
+ 
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 160px;
+  height: 200px;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ 
+ 
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);\
+
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 160px;
+  height: 200px;
+  backface-visibility: hidden;
+  padding:2px;
+ 
+  
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  z-index: 2;
+
+  
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+  z-index: 1;
+  text-align: left;
+ 
+  
+}
+
+.fieldset-login{
+	margin: auto; 
+	height: 100%; 
+	 width: 35%;
+
+	 
+}

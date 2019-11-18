@@ -1,0 +1,431 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Giri Mart</title>
+<script src="lib/angular.js"></script>
+<script src="angularDemo.js"></script>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<!-- Header -->
+<fieldset  style="text-align:center; height: auto; margin:  0px auto;">
+<fieldset style="text-align:center; background-color:green;">
+<legend style="text-align:center;background-color:red">[Welcome to]</legend>
+<div class="header" style=background-image:url(images/icons/retail2.jpg);>
+<h1 style="text-align:center;background-color: yellow;">GIRI MINI MART</h1>
+<!-- Login and Registration link -->  
+
+    <a href="login.jsp">Login Here</a>
+    <a href="register.jsp">Register Here</a> 
+</div> 
+</fieldset>
+<!-- Left Column -->
+<div class="clearfix">
+  <div class="column menu">
+  <fieldset style="text-align:center;background-color:LightBrown">
+  <legend style="text-align:center;"><h1>[Menu]</h1></legend>
+    <ul>
+      <li><a href="index.html">Sale Items</a></li>
+      <li><a href="index2.html">Clothing</a></li>
+      <li><a href="index.html">Shoes</a></li>
+      <li><a href="index.html">Jewellery</a></li>
+      <li><a href="index.html">Vegitables/Meat</a></li>
+      <li><a href="index.html">Fruits</a></li>
+      <li><a href="index.html">Non Alcoholic Drinks</a></li>
+      <li><a href="index.html">Wine/Champange</a></li>
+      <li><a href="index.html">Beer/Rum</a></li>    
+    </ul>    
+      </fieldset>
+  </div>
+  
+  <!-- Items on Sale Panel-->
+  <div class="column content">
+  <fieldset style="text-align:center;background-color:white">
+  <legend style="text-align:center;"><h1>[Items on Sale]</h1></legend>
+  
+  <!--Item Flip card -->
+    <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <p></p>
+      <img src="images/resizeclothing/cowboy hat.png" style="width:140px;height:110px;">
+        <p> CowBoy Hat</p> 
+    </div>
+    <div class="flip-card-back">
+    <div style="text-align:center;">
+      <p>Color : Brown</p>
+      <p>Size : XL </p>
+      <p>Price : 12.50</p>
+      </div>
+      <button >Add to Cart</button>
+    </div>
+  </div>
+</div>
+
+ <!--Item Flip card -->
+    <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <p></p>
+      <img src="images/resizeclothing/cowboy hat.png" style="width:140px;height:110px;">
+        <p> CowBoy Hat</p> 
+    </div>
+    <div class="flip-card-back">
+    <div style="text-align:center;">
+      <p>Color : Brown</p>
+      <p>Size : XL </p>
+      <p>Price : 12.50</p>
+      </div>
+      <button class="button" >Add to Cart</button>
+    </div>
+  </div>
+</div>
+
+ <!--Item Flip card -->
+    <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <p></p>
+      <img src="images/resizeclothing/cowboy hat.png" style="width:140px;height:110px;">
+        <p> CowBoy Hat</p> 
+    </div>
+    <div class="flip-card-back">
+    <div style="text-align:center;">
+      <p>Color : Brown</p>
+      <p>Size : XL </p>
+      <p>Price : 12.50</p>
+      </div>
+      <button class="button" >Add to Cart</button>
+    </div>
+  </div>
+</div>
+
+ <!--Item Flip card -->
+    <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <p></p>
+      <img src="images/resizeclothing/cowboy hat.png" style="width:140px;height:110px;">
+        <p> CowBoy Hat</p> 
+    </div>
+    <div class="flip-card-back">
+    <div style="text-align:center;">
+      <p>Color : Brown</p>
+      <p>Size : XL </p>
+      <p>Price : 12.50</p>
+      </div>
+      <button class="button" >Add to Cart</button>
+    </div>
+  </div>
+</div>
+
+
+  <!--Item Flip card -->
+    <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <p></p>
+      <img src="images/resizeclothing/cowboy hat.png" style="width:140px;height:110px;">
+        <p> CowBoy Hat</p> 
+    </div>
+    <div class="flip-card-back">
+    <div style="text-align:center;">
+      <p>Color : Brown</p>
+      <p>Size : XL </p>
+      <p>Price : 12.50</p>
+      </div>
+      <button class="button" >Add to Cart</button>
+    </div>
+  </div>
+</div>
+
+  <!--Item Flip card -->
+    <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <p></p>
+      <img src="images/resizeclothing/cowboy hat.png" style="width:140px;height:110px;">
+        <p> CowBoy Hat</p> 
+    </div>
+    <div class="flip-card-back">
+    <div style="text-align:center;">
+      <p>Color : Brown</p>
+      <p>Size : XL </p>
+      <p>Price : 12.50</p>
+      </div>
+      <button class="button" >Add to Cart</button>
+    </div>
+  </div>
+</div>
+
+  <!--Item Flip card -->
+    <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <p></p>
+      <img src="images/resizeclothing/cowboy hat.png" style="width:140px;height:110px;">
+        <p> CowBoy Hat</p> 
+    </div>
+    <div class="flip-card-back">
+    <div style="text-align:center;">
+      <p>Color : Brown</p>
+      <p>Size : XL </p>
+      <p>Price : 12.50</p>
+      </div>
+      <button class="button" >Add to Cart</button>
+    </div>
+  </div>
+</div>
+
+
+  <!--Item Flip card -->
+    <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <p></p>
+      <img src="images/resizeclothing/cowboy hat.png" style="width:140px;height:110px;">
+        <p> CowBoy Hat</p> 
+    </div>
+    <div class="flip-card-back">
+    <div style="text-align:center;">
+      <p>Color : Brown</p>
+      <p>Size : XL </p>
+      <p>Price : 12.50</p>
+      </div>
+      <button class="button" >Add to Cart</button>
+    </div>
+  </div>
+</div>
+
+
+  <!--Item Flip card -->
+    <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <p></p>
+      <img src="images/resizeclothing/cowboy hat.png" style="width:140px;height:110px;">
+        <p> CowBoy Hat</p> 
+    </div>
+    <div class="flip-card-back">
+    <div style="text-align:center;">
+      <p>Color : Brown</p>
+      <p>Size : XL </p>
+      <p>Price : 12.50</p>
+      </div>
+      <button class="button" >Add to Cart</button>
+    </div>
+  </div>
+</div>
+
+
+  <!--Item Flip card -->
+    <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <p></p>
+      <img src="images/resizeclothing/cowboy hat.png" style="width:140px;height:110px;">
+        <p> CowBoy Hat</p> 
+    </div>
+    <div class="flip-card-back">
+    <div style="text-align:center;">
+      <p>Color : Brown</p>
+      <p>Size : XL </p>
+      <p>Price : 12.50</p>
+      </div>
+      <button class="button" >Add to Cart</button>
+    </div>
+  </div>
+</div>
+
+  <!--Item Flip card -->
+    <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <p></p>
+      <img src="images/resizeclothing/cowboy hat.png" style="width:140px;height:110px;">
+        <p> CowBoy Hat</p> 
+    </div>
+    <div class="flip-card-back">
+    <div style="text-align:center;">
+      <p>Color : Brown</p>
+      <p>Size : XL </p>
+      <p>Price : 12.50</p>
+      </div>
+      <button class="button" >Add to Cart</button>
+    </div>
+  </div>
+</div>
+
+  <!--Item Flip card -->
+    <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <p></p>
+      <img src="images/resizeclothing/cowboy hat.png" style="width:140px;height:110px;">
+        <p> CowBoy Hat</p> 
+    </div>
+    <div class="flip-card-back">
+    <div style="text-align:center;">
+      <p>Color : Brown</p>
+      <p>Size : XL </p>
+      <p>Price : 12.50</p>
+      </div>
+      <button class="button" >Add to Cart</button>
+    </div>
+  </div>
+</div>
+  <!--Item Flip card -->
+    <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <p></p>
+      <img src="images/resizeclothing/cowboy hat.png" style="width:140px;height:110px;">
+        <p> CowBoy Hat</p> 
+    </div>
+    <div class="flip-card-back">
+    <div style="text-align:center;">
+      <p>Color : Brown</p>
+      <p>Size : XL </p>
+      <p>Price : 12.50</p>
+      </div>
+      <button class="button" >Add to Cart</button>
+    </div>
+  </div>
+</div>  <!--Item Flip card -->
+    <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <p></p>
+      <img src="images/resizeclothing/cowboy hat.png" style="width:140px;height:110px;">
+        <p> CowBoy Hat</p> 
+    </div>
+    <div class="flip-card-back">
+    <div style="text-align:center;">
+      <p>Color : Brown</p>
+      <p>Size : XL </p>
+      <p>Price : 12.50</p>
+      </div>
+      <button class="button" >Add to Cart</button>
+    </div>
+  </div>
+</div>  <!--Item Flip card -->
+    <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <p></p>
+      <img src="images/resizeclothing/cowboy hat.png" style="width:140px;height:110px;">
+        <p> CowBoy Hat</p> 
+    </div>
+    <div class="flip-card-back">
+    <div style="text-align:center;">
+      <p>Color : Brown</p>
+      <p>Size : XL </p>
+      <p>Price : 12.50</p>
+      </div>
+      <button class="button" >Add to Cart</button>
+    </div>
+  </div>
+</div>  <!--Item Flip card -->
+    <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <p></p>
+      <img src="images/resizeclothing/cowboy hat.png" style="width:140px;height:110px;">
+        <p> CowBoy Hat</p> 
+    </div>
+    <div class="flip-card-back">
+    <div style="text-align:center;">
+      <p>Color : Brown</p>
+      <p>Size : XL </p>
+      <p>Price : 12.50</p>
+      </div>
+      <button class="button" >Add to Cart</button>
+    </div>
+  </div>
+</div>  <!--Item Flip card -->
+    <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <p></p>
+      <img src="images/resizeclothing/cowboy hat.png" style="width:140px;height:110px;">
+        <p> CowBoy Hat</p> 
+    </div>
+    <div class="flip-card-back">
+    <div style="text-align:center;">
+      <p>Color : Brown</p>
+      <p>Size : XL </p>
+      <p>Price : 12.50</p>
+      </div>
+      <button class="button" >Add to Cart</button>
+    </div>
+  </div>
+</div>  <!--Item Flip card -->
+    <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <p></p>
+      <img src="images/resizeclothing/cowboy hat.png" style="width:140px;height:110px;">
+        <p> CowBoy Hat</p> 
+    </div>
+    <div class="flip-card-back">
+    <div style="text-align:center;">
+      <p>Color : Brown</p>
+      <p>Size : XL </p>
+      <p>Price : 12.50</p>
+      </div>
+      <button class="button" >Add to Cart</button>
+    </div>
+  </div>
+</div>  <!--Item Flip card -->
+    <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <p></p>
+      <img src="images/resizeclothing/cowboy hat.png" style="width:140px;height:110px;">
+        <p> CowBoy Hat</p> 
+    </div>
+    <div class="flip-card-back">
+    <div style="text-align:center;">
+      <p>Color : Brown</p>
+      <p>Size : XL </p>
+      <p>Price : 12.50</p>
+      </div>
+      <button class="button" >Add to Cart</button>
+    </div>
+  </div>
+</div>  <!--Item Flip card -->
+    <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <p></p>
+      <img src="images/resizeclothing/cowboy hat.png" style="width:140px;height:110px;">
+        <p> CowBoy Hat</p> 
+    </div>
+    <div class="flip-card-back">
+    <div style="text-align:center;">
+      <p>Color : Brown</p>
+      <p>Size : XL </p>
+      <p>Price : 12.50</p>
+      </div>
+      <button class="button" >Add to Cart</button>
+    </div>
+  </div>
+</div>
+
+<!--New Frame -->
+
+ </div>
+</fieldset>
+  </div>
+  
+
+<!--Footer-->
+<div class="footer" style=background-image:url(images/icons/retail2.jpg);>
+  <p>Footer Text</p>
+</div>
+</body>
+</html>
